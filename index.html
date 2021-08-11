@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="./index.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -30,7 +31,11 @@
         </div>
 
     </div>
-    <script src="./index.js"></script>
+    <script>
+        if (window.addEventListener("beforeunload", function(event))) {
+            reload();
+        }
+    </script>
 </body>
 
 <footer class="footer">

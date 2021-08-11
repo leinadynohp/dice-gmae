@@ -41,5 +41,3 @@ function reload() {
         document.querySelector("h1").innerHTML="<img src='./images/finish.png' width='100rem'> You Are Tie <img src='./images/finish.png' width='100rem'>"
     }
 }
-
-reload()
