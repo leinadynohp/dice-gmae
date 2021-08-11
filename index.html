@@ -18,7 +18,7 @@
 
     <div class="container">
 
-        <h1 class="tittle" id="tittle">Refresh Me</h1>
+        <h1 class="tittle" id="tittle">Dice-Game</h1>
 
         <div class="dice">
             <h2 class="players">player 1</h2>
@@ -29,13 +29,11 @@
             <h2 class="players">player 2</h2>
             <img id="dice-image-2" class="dice-image-2" src="./images/dice6.png" alt="dice image">
         </div>
-
     </div>
-    <script>
-        if (window.addEventListener("beforeunload", function(event))) {
-            reload();
-        }
-    </script>
+    <div class="btn-set">
+        <button class="btn" onclick="diceRoll()">ROll</button>
+        <button class="btn" onclick="history.go(0)">Home</button>
+    </div>
 </body>
 
 <footer class="footer">

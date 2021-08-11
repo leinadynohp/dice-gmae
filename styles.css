@@ -31,7 +31,7 @@ html {
 }
 
 .footer {
-    margin: 5rem auto;
+    margin: 2rem auto;
     text-align: center;
 }
 
@@ -39,4 +39,27 @@ html {
     color:#4ECCA3;
     font-family: 'Lobster Two', cursive;
     font-size: 1.5rem;
+}
+
+.btn-set {
+    text-align: center;
+    margin: 40px auto 0 auto;
+}
+
+.btn {
+    margin: auto 50px;
+    font-family: 'Lobster Two', cursive;
+    font-weight:800;
+    font-size: 3rem;
+    color: #4ECCA3;
+    border-style:solid;
+    border-color: white;
+    border-radius: 15px;
+    background-color:#393E46;
+    width: 250px;
+    height: 100px;
+}
+
+.btn:hover {
+    background-color: white;
 }
