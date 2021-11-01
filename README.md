@@ -1,6 +1,6 @@
 # dice-gmae
 
-Dice Game Created by Leinad as a practice to learn Java Script
+Dice Game Created by Leinad as a practice to learn JavaScript
 
 Credit to Dr.Angela Yu on Udemy
 
